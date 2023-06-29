@@ -72,9 +72,9 @@ If there exists any potential opportunities or projects, please do not hesitate 
       <li>Project 3</li>
     </ul>
 
-    <h2>Contact Qi Chen</h2>
-    <p>Email: qi.chen@example.com</p>
-    <p>Phone: 123-456-7890</p>
+    <h2>Contact Qi Chen </h2>
+    <p>Email: chen.qi3@northeastern.edu </p>
+    <p>Phone: 646-823-8800 </p>
   </main>
 
   <footer>
