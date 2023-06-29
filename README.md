@@ -1,4 +1,6 @@
-<title>Qi Chen's Website</title> <style> body { font-family: "Times New Roman", Times, serif; margin: 0; padding: 0; }
+qich3n.github.io
+
+<title>Qi Chen's Website</title> <style> body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
 header {
   background-color: #333;
   color: #fff;
@@ -33,3 +35,4 @@ footer {
   text-align: center;
 }
 </style>
+
