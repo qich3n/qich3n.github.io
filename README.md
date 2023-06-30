@@ -1,3 +1,4 @@
+# qich3n.github.io
 <!DOCTYPE html>
 <html>
 <head>
@@ -60,7 +61,7 @@
 
   <main>
     <h2>About Qi Chen</h2>
-    <p>I am an undergraduate student at Northeastern University studying computer science. I am interested in software development and artificial intelligence, but am also open to exploring different fields while also learning new technologies. At the moment, I have experience with Java, Python, and C#, but am actively trying to expand my experience with other languages. With my experience in programming, I can bring new perspectives and approaches to solving problems.
+    <p>I am currently an undergraduate student at Northeastern University studying computer science in my final year. I am interested in software development and artificial intelligence, but am also open to exploring different fields while also learning new technologies. At the moment, I have experience with Java, Python, and C#, but am actively trying to expand my experience with other languages. With my experience in programming, I can bring new perspectives and approaches to solving problems.
 
 If there exists any potential opportunities or projects, please do not hesitate to reach out to me at chen.qi3@northeastern.edu. </p>
 
