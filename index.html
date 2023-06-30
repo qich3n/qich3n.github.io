@@ -19,6 +19,7 @@
     nav {
       background-color: #f2f2f2;
       padding: 10px;
+      text-align: center;
     }
 
     nav ul {
@@ -42,6 +43,31 @@
       padding: 20px;
       text-align: center;
     }
+
+    h1, h2, p, li {
+      color: #333;
+    }
+
+    a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .hero-image {
+      background-image: url('path/to/your/image.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+    }
   </style>
 </head>
 <body>
@@ -59,21 +85,22 @@
   </nav>
 
   <main>
-    <h2>About Qi Chen</h2>
-    <p>I am currently an undergraduate student at Northeastern University studying computer science in my final year. I am interested in software development and artificial intelligence, but am also open to exploring different fields while also learning new technologies. At the moment, I have experience with Java, Python, and C#, but am actively trying to expand my experience with other languages. With my experience in programming, I can bring new perspectives and approaches to solving problems.
+    <div class="container">
+      <div class="hero-image"></div>
+      <h2>About Qi Chen</h2>
+      <p>I am currently an undergraduate student at Northeastern University studying computer science in my final year. I am interested in software development and artificial intelligence, but am also open to exploring different fields while also learning new technologies. At the moment, I have experience with Java, Python, and C#, but am actively trying to expand my experience with other languages. With my experience in programming, I can bring new perspectives and approaches to solving problems.</p>
 
-If there exists any potential opportunities or projects, please do not hesitate to reach out to me at chen.qi3@northeastern.edu. </p>
+      <h2>Projects</h2>
+      <ul>
+        <li>Project 1</li>
+        <li>Project 2</li>
+        <li>Project 3</li>
+      </ul>
 
-    <h2>Projects</h2>
-    <ul>
-      <li>Project 1</li>
-      <li>Project 2</li>
-      <li>Project 3</li>
-    </ul>
-
-    <h2>Contact Qi Chen </h2>
-    <p>Email: chen.qi3@northeastern.edu </p>
-    <p>Phone: 646-823-8800 </p>
+      <h2>Contact Qi Chen</h2>
+      <p>Email: chen.qi3@northeastern.edu</p>
+      <p>Phone: 646-823-8800</p>
+    </div>
   </main>
 
   <footer>
@@ -81,3 +108,4 @@ If there exists any potential opportunities or projects, please do not hesitate 
   </footer>
 </body>
 </html>
+
