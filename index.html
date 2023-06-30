@@ -44,6 +44,8 @@
       text-align: center;
     }
 
+    /* Additional Styles */
+
     h1, h2, p, li {
       color: #333;
     }
@@ -57,16 +59,101 @@
       text-decoration: underline;
     }
 
+    /* Custom Styles */
+
     .container {
       max-width: 800px;
       margin: 0 auto;
     }
 
-    .hero-image {
-      background-image: url('path/to/your/image.jpg');
+    .hero {
+      background-image: url('https://example.com/path/to/hero-image.jpg');
       background-size: cover;
       background-position: center;
-      height: 300px;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 40px;
+      color: #fff;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .about-section {
+      margin-bottom: 50px;
+    }
+
+    .about-section h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .about-section p {
+      line-height: 1.5;
+    }
+
+    .projects-section {
+      margin-bottom: 50px;
+    }
+
+    .projects-section h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .projects-section ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .projects-section li {
+      margin-bottom: 10px;
+      padding-left: 20px;
+      position: relative;
+    }
+
+    .projects-section li::before {
+      content: "\2022";
+      position: absolute;
+      left: 0;
+      color: #333;
+    }
+
+    .contact-section {
+      margin-bottom: 50px;
+    }
+
+    .contact-section h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .contact-section p {
+      margin-bottom: 10px;
+    }
+
+    .contact-section .contact-info {
+      display: flex;
+      align-items: center;
+    }
+
+    .contact-section .contact-info img {
+      margin-right: 10px;
+    }
+
+    .footer-section {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .footer-section p {
+      margin: 0;
     }
   </style>
 </head>
@@ -86,24 +173,41 @@
 
   <main>
     <div class="container">
-      <div class="hero-image"></div>
-      <h2>About Qi Chen</h2>
-      <p>I am currently an undergraduate student at Northeastern University studying computer science in my final year. I am interested in software development and artificial intelligence, but am also open to exploring different fields while also learning new technologies. At the moment, I have experience with Java, Python, and C#, but am actively trying to expand my experience with other languages. With my experience in programming, I can bring new perspectives and approaches to solving problems.</p>
+      <section class="hero">
+        <h1>Discover the World of Coding</h1>
+      </section>
 
-      <h2>Projects</h2>
-      <ul>
-        <li>Project 1</li>
-        <li>Project 2</li>
-        <li>Project 3</li>
-      </ul>
+      <section class="about-section">
+        <h2>About Qi Chen</h2>
+        <p>I am currently an undergraduate student at Northeastern University studying computer science in my final year. I am interested in software development and artificial intelligence, but am also open to exploring different fields while also learning new technologies. At the moment, I have experience with Java, Python, and C#, but am actively trying to expand my experience with other languages. With my experience in programming, I can bring new perspectives and approaches to solving problems.</p>
+      </section>
 
-      <h2>Contact Qi Chen</h2>
-      <p>Email: chen.qi3@northeastern.edu</p>
-      <p>Phone: 646-823-8800</p>
+      <section class="projects-section">
+        <h2>Projects</h2>
+        <ul>
+          <li>Project 1</li>
+          <li>Project 2</li>
+          <li>Project 3</li>
+        </ul>
+      </section>
+
+      <section class="contact-section">
+        <h2>Contact Qi Chen</h2>
+        <p>Email: chen.qi3@northeastern.edu</p>
+        <p>Phone: 646-823-8800</p>
+        <div class="contact-info">
+          <img src="https://example.com/path/to/email-icon.png" alt="Email Icon" width="16" height="16">
+          <p>chen.qi3@northeastern.edu</p>
+        </div>
+        <div class="contact-info">
+          <img src="https://example.com/path/to/phone-icon.png" alt="Phone Icon" width="16" height="16">
+          <p>646-823-8800</p>
+        </div>
+      </section>
     </div>
   </main>
 
-  <footer>
+  <footer class="footer-section">
     <p>&copy; 2023 Qi Chen's Website. All rights reserved.</p>
   </footer>
 </body>
