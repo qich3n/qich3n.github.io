@@ -66,6 +66,9 @@
     }
 
     .hero {
+      background-image: url('https://example.com/path/to/hero-image.jpg');
+      background-size: cover;
+      background-position: center;
       height: 200px; /* Adjust the height as desired */
       display: flex;
       align-items: center;
@@ -74,9 +77,10 @@
       margin-bottom: 20px;
     }
 
-    .hero img {
-      max-width: 100%;
-      height: auto;
+    .hero h1 {
+      font-size: 18px; /* Adjust the font size as desired */
+      color: #fff;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
 
     .about-section {
@@ -155,168 +159,52 @@
 </head>
 <body>
   <header>
-    <h1 style="color:Here's the modified code for your `index.html` file:
+    <h1 style="color: #fff;">Welcome to Qi Chen's Website</h1>
+  </header>
 
-```html
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Qi Chen's Website</title>
-  <style>
-    body {
-      font-family: Times New Roman, serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f5f5f5;
-      color: #333;
-    }
+  <nav>
+    <ul>
+      <li><a href="index.html" style="color: #333;">Home</a></li>
+      <li><a href="about.html" style="color: #333;">About</a></li>
+      <li><a href="project.html" style="color: #333;">Projects</a></li>
+      <li><a href="contact.html" style="color: #333;">Contact</a></li>
+    </ul>
+  </nav>
 
-    header {
-      background-color: #1565c0;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
+  <main>
+    <div class="container">
+      <section class="hero">
+        <h1 style="font-size: 18px; color: #fff;">Discover the World of Coding</h1>
+      </section>
 
-    nav {
-      background-color: #b3e5fc;
-      padding: 10px;
-      text-align: center;
-    }
+      <!-- Content for About Section -->
+      <section class="about-section">
+        <h2>About Qi Chen</h2>
+        <p>I am currently an undergraduate student at Northeastern University studying computer science in my final year. I am interested in software development and artificial intelligence, but am also open to exploring different fields while also learning new technologies. At the moment, I have experience with Java, Python, and C#, but am actively trying to expand my experience with other languages. With my experience in programming, I can bring new perspectives and approaches to solving problems.</p>
+      </section>
 
-    nav ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
+      <section class="projects-section">
+        <h2>Projects</h2>
+        <ul>
+          <li><a href="https://example.com/project1">Project 1</a></li>
+          <li><a href="https://example.com/project2">Project 2</a></li>
+          <li><a href="https://example.com/project3">Project 3</a></li>
+        </ul>
+      </section>
 
-    nav ul li {
-      display: inline;
-      margin-right: 10px;
-    }
+      <section class="contact-section">
+        <h2>Contact Qi Chen</h2>
+        <p>Email: chen.qi3@northeastern.edu</p>
+        <p>Phone: 646-823-8800</p>
+      </section>
+    </div>
+  </main>
 
-    main {
-      margin: 20px;
-    }
-
-    footer {
-      background-color: #1565c0;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-
-    h1, h2, p, li {
-      color: #333;
-    }
-
-    a {
-      color: #333;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .container {
-      max-width: 600px; /* Adjust the max-width as desired */
-      margin: 0 auto;
-      padding: 20px; /* Add padding to create some space around the content */
-    }
-
-    .hero {
-      height: 200px; /* Adjust the height as desired */
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    .hero img {
-      max-width: 100%;
-      height: auto;
-    }
-
-    .about-section {
-      margin-bottom: 10px; /* Adjust the margin value as needed */
-    }
-
-    .about-section h2 {
-      font-size: 24px;
-      margin-bottom: 10px;
-    }
-
-    .about-section p {
-      line-height: 1.5;
-    }
-
-    .projects-section {
-      margin-bottom: 20px;
-    }
-
-    .projects-section h2 {
-      font-size: 24px;
-      margin-bottom: 20px;
-    }
-
-    .projects-section ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    .projects-section li {
-      margin-bottom: 10px;
-      padding-left: 20px;
-      position: relative;
-    }
-
-    .projects-section li::before {
-      content: "\2022";
-      position: absolute;
-      left: 0;
-      color: #333;
-    }
-
-    .contact-section {
-      margin-bottom: 20px;
-    }
-
-    .contact-section h2 {
-      font-size: 24px;
-      margin-bottom: 20px;
-    }
-
-    .contact-section p {
-      margin-bottom: 10px;
-    }
-
-    .contact-section .contact-info {
-      display: flex;
-      align-items: center;
-    }
-
-    .contact-section .contact-info img {
-      margin-right: 10px;
-    }
-
-    .footer-section {
-      background-color: #1565c0;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-
-    .footer-section p {
-      margin: 0;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1 style="color: #fff;">Welcome to Qi Chen's Website</
-
+  <footer class="footer-section">
+    <p>&copy; 2023 Qi Chen's Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
 
 
 
