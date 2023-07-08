@@ -30,6 +30,9 @@
       background-position: center;
       padding: 20px;
       text-align: center;
+    }
+
+    .header-title {
       color: #fff;
       font-size: 48px;
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -105,13 +108,26 @@
     .project-section li a:hover {
       text-decoration: underline;
     }
+
+    .footer-container {
+      background-image: url("websitebanner.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .footer-text {
+      color: #fff;
+    }
   </style>
 </head>
 <body>
   <div class="background-layer"></div>
   
   <header>
-    <h1>Qi Chen</h1>
+    <h1 class="header-title">Qi Chen</h1>
   </header>
 
   <nav>
@@ -138,9 +154,8 @@
 
   <footer class="footer-section">
     <div class="footer-container">
-      <p>&copy; 2023 Qi Chen's Website. All rights reserved.</p>
+      <p class="footer-text">&copy; 2023 Qi Chen's Website. All rights reserved.</p>
     </div>
   </footer>
 </body>
 </html>
-
